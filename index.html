@@ -1,3 +1,648 @@
-<h1>
-just a test index html file
-</h1>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Právní firma</title>
+    <!--GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--BOOTSTRAP MAIN STYLES -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--FONTAWESOME MAIN STYLE -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--PRETTYPHOTO MAIN STYLE -->
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+    <!--CUSTOM STYLE -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="tabs_css/demo.css" />
+<link rel="stylesheet" type="text/css" href="tabs_css/style.css" />
+<script>
+$(document).ready(function() {
+	$('#prohlaseni1').hide();
+    $('.link-1').click(function() {	
+	$('#prohlaseni1').css({"z-index":"5000"});
+    $('#prohlaseni1').hide().delay(200).fadeIn(400, function() {
+    // Animation complete
+  });
+ });
+  $('#zavrit1').click(function() {
+    $('#prohlaseni1').delay(200).fadeOut(400, function() {
+    // Animation complete
+	$('#prohlaseni1').hide();
+  });
+ });
+ $('#prohlaseni2').hide();
+    $('.link-2').click(function() {	
+	$('#prohlaseni2').css({"z-index":"5000"});
+    $('#prohlaseni2').hide().delay(200).fadeIn(400, function() {
+    // Animation complete
+  });
+ });
+  $('#zavrit2').click(function() {
+    $('#prohlaseni2').delay(200).fadeOut(400, function() {
+    // Animation complete
+	$('#prohlaseni2').hide();
+  });
+ });
+  $('#prohlaseni7').hide();
+    $('.link-7').click(function() {	
+	$('#prohlaseni7').css({"z-index":"5000"});
+    $('#prohlaseni7').hide().delay(200).fadeIn(400, function() {
+    // Animation complete
+  });
+ });
+  $('#zavrit7').click(function() {
+    $('#prohlaseni7').delay(200).fadeOut(400, function() {
+    // Animation complete
+	$('#prohlaseni7').hide();
+  });
+ });
+ $('#prohlaseni11').hide();
+    $('.link-11').click(function() {	
+	$('#prohlaseni11').css({"z-index":"5000"});
+    $('#prohlaseni11').hide().delay(200).fadeIn(400, function() {
+    // Animation complete
+  });
+ });
+  $('#zavrit11').click(function() {
+    $('#prohlaseni11').delay(200).fadeOut(400, function() {
+    // Animation complete
+	$('#prohlaseni11').hide();
+  });
+ });
+});
+</script>
+</head>
+
+<body>
+
+    <!--NAV SECTION -->
+    <header id="header-nav" role="banner">
+        <div id="navbar" class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Ivo Šotek - advokátní kancelář</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Navigace</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav flot-nav">
+                    <li><a href="#slide-head">Domů</a></li>
+                    <li><a href="#sluzby-box">Služby</a></li>
+                    <li><a href="#nas-tym">Náš tým</a></li>
+                    <li><a href="#portfolio">Reference</a></li>
+                    <li><a href="#o-nas">O nás</a></li>
+                    <li><a href="#kontakty">Kontakty</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--END NAV SECTION -->
+    <!--SLIDE CAROUSEL SECTION -->
+    <section id="slide-head" class="carousel">
+    
+        <div class="carousel-inner">
+
+        <div class="item active">
+
+                    <div class="carousel-content">
+                       <img src="assets/img/0.jpg" alt=""/>
+                    </div>
+
+            </div>
+            <div class="item">
+
+                    <div class="carousel-content">
+                       <img src="assets/img/1.jpg" alt=""/>
+                    </div>
+
+            </div>
+            <div class="item">
+
+                    <div class="carousel-content">
+                       <img src="assets/img/2.jpg" alt=""/>
+                    </div>
+
+            </div>
+            
+             <div class="item">
+
+                    <div class="carousel-content">
+                        <img src="assets/img/17.jpg" />
+                    </div>
+
+            </div>
+             <div class="item">
+
+                    <div class="carousel-content">
+                        <img src="assets/img/15.jpg" />
+                    </div>
+
+            </div>
+            <!-- ./ first active div-->
+        </div>
+        <a class="prev" href="#slide-head" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+        <a class="next" href="#slide-head" data-slide="next"><i class="fa fa-angle-right"></i></a>
+        
+    </section>
+    <span id="sluzby-box"></span>
+    <!--END SLIDE CAROUSEL SECTION -->
+     <section id="sluzby">  
+     <section class="tabs2"  data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+	            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+		        <label for="tab-1" class="tab-label-1">Reorganizace<span class="triangle"></span></label>
+		
+	            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+		        <label for="tab-2" class="tab-label-2">Právní služby<span class="triangle"></span></label>
+		
+	            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+		        <label for="tab-3" class="tab-label-3">Služby správců<span class="triangle"></span></label>
+			
+	            <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
+		        <label for="tab-4" class="tab-label-4">Prodej majetku<span class="triangle"></span></label>
+			    <div class="clear-shadow"></div>
+				
+		        <div class="content">
+			        <div class="content-1">
+                    <h2>Reorganizace</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Fusce suscipit libero eget elit. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed ac dolor sit amet purus malesuada congue. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aenean vel massa quis mauris vehicula lacinia. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Etiam commodo dui eget wisi. Duis viverra diam non justo.</p>
+
+				    </div>
+
+			        <div class="content-2">
+
+                    <h2>Právní služby na internetu:</h2>
+<p>Poskytujeme některé služby přímo prostřednictvím Internetu - právní rozbory, sepis smluv, dle dohody další.</p>
+<p>Jak poskytování právních služeb probíhá:</p>
+<ol>
+  <li>Zašlete nám pomocí formuláře na této stránce stručnou žádost s popisem Vašeho problému</li>
+  <li>Obratem od nás obdržíte předběžný odhad rozsahu práce a ceny a zálohovou fakturu.</li>
+  <li>Po její úhradě , bude příslušná právní služby provedena, podklady Vám budou zaslány v elektronické , dle požadavku a druhu služby i v tištěné podobě.</li>
+</ol>
+
+<p>Pellentesque arcu. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Etiam bibendum elit eget erat. Vestibulum fermentum tortor id mi. Aliquam ante. Duis condimentum augue id magna semper rutrum. Nunc dapibus tortor vel mi dapibus sollicitudin. Integer tempor. Aliquam erat volutpat. Integer in sapien. Aliquam erat volutpat. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus.</p>
+				    </div>
+			        <div class="content-3">
+                    <h2>Služby správců</h2>
+<p>Mgr. Ivo Šotek je na základě rozhodnutí Ministerstva spravedlnosti ČR oprávněn vykonávat funkci zvláštního insolvenčního správce. Rovněž je zapsán v seznamu likvidátorů a nucených správců vedených Českou národní bankou. Na těchto stránkách najdete seznam insolvenčních řízení, v nichž je jmenován insolvenčním správcem a seznam prodávaného majetku v insolvenčním řízení.</p>
+
+<p>Mgr. Ivo Šotek je insolvenčním (dříve konkursním) správcem již od roku 2003. Na základě rozhodnutí Ministerstva spravedlnosti ČR ze dne 20.11.2010 je, jako jeden z mála insolvenčních správců, oprávněn vykonávat funkci zvláštního insolvenčního správce.</p>
+
+<p>Rovněž je zapsán v seznamu likvidátorů a nucených správců vedených Českou národní bankou pro účely zavedení likvidací a nucené správy subjektů podnikajících na kapitálovém trhu.</p>
+
+				    </div>
+				    <div class="content-4">
+						<h2>Prodej majetku</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Fusce suscipit libero eget elit. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Sed ac dolor sit amet purus malesuada congue. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aenean vel massa quis mauris vehicula lacinia. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Etiam commodo dui eget wisi. Duis viverra diam non justo.</p>
+
+<p>Pellentesque arcu. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Etiam bibendum elit eget erat. Vestibulum fermentum tortor id mi. Aliquam ante. Duis condimentum augue id magna semper rutrum. Nunc dapibus tortor vel mi dapibus sollicitudin. Integer tempor. Aliquam erat volutpat. Integer in sapien. Aliquam erat volutpat. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus.</p>
+				    </div>
+		        </div>
+			</section>
+            </section>
+    <!--ABOUT SECTION -->
+    <section id="nas-tym">
+        <div class="wrap-pad">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
+                    <div class="text-center">
+                        <h1>Náš tým</h1>
+                    </div>
+
+                </div>
+                <!-- ./ Heading div-->
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin-top-100  ">
+                     <div class="col-md-3 col-sm-6 link-7" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/ivo.jpg" alt="">
+                            </p>
+                            <h3>Mgr. Ivo Šotek</h3>
+                            <p>
+                                Ivo Šotek absolvoval Právnickou fakultu Univerzity Palackého v Olomouci...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 link-1" data-scrollreveal="enter left and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/eliska.jpg" alt="">
+                            </p>
+                            <h3>Eliška Dostálová</h3>
+                            <p>
+                               Je studentka Právnické fakulty Univerzity Palackého v Olomouci a v advokátní...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 link-2" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle" src="assets/img/team/katerina.jpg" alt="">
+                            </p>
+                            <h3>Kateřina Krkošková</h3>
+                            <p>
+                                Kateřina Krkošková je studentkou posledního ročníku Právnické fakulty...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 link-3" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle" src="assets/img/team/nikola1.jpg" alt="">
+                            </p>
+                            <h3>Nikola Königová</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 link-4" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/pavla.jpg" alt="">
+                            </p>
+                            <h3>Pavla Ládová</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien.
+                            </p>
+                        </div>
+                    </div>
+                     <div class="col-md-3 col-sm-6 link-5" data-scrollreveal="enter left and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/irena.jpg" alt="">
+                            </p>
+                            <h3>Irena Hildebrandtová</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien.
+                            </p>
+                        </div>
+                    </div>
+                      <div class="col-md-3 col-sm-6 link-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/lucie.jpg" alt="">
+                            </p>
+                            <h3>Lucie Mohylová</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien.
+                            </p>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-3 col-sm-6 link-8" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/richard.jpg" alt="">
+                            </p>
+                            <h3>Richard Frommer</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 link-9" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/petra.jpg" alt="">
+                            </p>
+                            <h3>Mgr., Bc. Petra Němcová</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 link-10" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/krista.jpg" alt="">
+                            </p>
+                            <h3>Kristýna Hořanská</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. 
+                            </p>
+                        </div>
+                    </div>
+                     <div class="col-md-3 col-sm-6 link-11" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <p>
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/team/nikola.jpg" alt="">
+                            </p>
+                            <h3>Kateřina Obadalová</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./ Content div-->
+            </div>
+        </div>
+    </section>
+    <!--END ABOUT SECTION -->
+    <!--SERVICES SECTION -->
+    <section id="portfolio">
+        <div class="wrap-pad">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.5s">
+                    <div class="text-center">
+                        <h1>Lorem ipsum</h1>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.                        
+                        </p>
+                    </div>
+                </div>
+                <!-- ./ Heading div-->
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+                    <div class="col-md-4 col-sm-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <i class="fa fa-wei icon-round bk-color-red"></i>
+                            <h4>Dolor sit amet</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <i class="fa fa-ham icon-round bk-color-black"></i>
+                            <h4>Patriam amamus</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <i class="fa fa-wei icon-round bk-color-light-blue"></i>
+                            <h4>Lorem ipsum </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <i class="fa fa-ham icon-round bk-color-green"></i>
+                            <h4>Dolor sit</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <i class="fa fa-ham icon-round bk-color-blue"></i>
+                            <h4>De duobis malus minus</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <div class="text-center">
+                            <i class="fa fa-ham icon-round bk-color-brown"></i>
+                            <h4>Lorem ipsum</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim sapien. Aliquam erat volutpat.
+                         Quisque eu ante at tortor imperdiet gravida nec sed turpis. Phasellus augue augue.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./ Content div-->
+            </div>
+        </div>
+    </section>
+    <!--END SERVICES SECTION -->
+    <!--PORTFOLIO SECTION -->
+    <section id="o-nas">
+        <div class="wrap-pad">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
+                    <div class="text-left">
+                        <h1>O nás</h1>
+
+<p>Advokátní kancelář Mgr. Ivo Šotek, Mgr. Radek Chochola a Mgr. Richard Frommer poskytuje právní služby v těchto právních odvětvích:</p>
+
+  <h3>Trestní právo:</h3>
+  <ul>
+    <li>obhajoba v trestních věcech</li>
+  </ul>
+  <h3>Obchodní právo:</h3>
+  <ul>
+    <li>sepisování smluv</li>
+    <li>směnečné právo</li>
+    <li>právní rozbory</li>
+    <li>zastupování v soudních sporech</li>
+    <li>likvidace obchodních společnost</li>
+  </ul>
+  <h3>Správní právo:</h3>
+  <ul>
+    <li>zastupování před správními orgány (přestupkové řízení, řízení před finančními úřady atd.)</li>
+  </ul>
+</div>
+<div>
+  <h3>Občanské právo:</h3>
+  <ul>
+    <li>vymáhání náhrady škod se specializací na náhradu škody na zdraví (bolestné, ztížení společenského uplatnění)</li>
+    <li>náhrada škody vůči státu za průtahy v řízení (civilním/trestním)</li>
+    <li>specializace na náhradu škody vůči státu za škodu způsobenou majitelům bytových domů aplikací právních předpisů o regulaci nájemného</li>
+    <li>sepis smluv (kupní, darovací, převod nemovitostí atd.)</li>
+    <li>zastupování v soudních sporech</li>
+    <li>právní rozbory</li>
+  </ul>
+  <h3>Rodinné právo:</h3>
+  <ul>
+    <li>výchova + výživa dětí</li>
+    <li>rozvody</li>
+    <li>zastupování před soudy</li>
+    <li>jiné</li>
+  </ul>
+</div>
+<h3>Ochrana spotřebitele:</h3>
+<ul>
+  <li>specializace na spory týkající se nároků z vad zboží zakoupených
+    v "kamenných" i zásilkových obchodech</li>
+</ul>
+
+
+                         
+      <img src="assets/img/team/velka.jpg" style="width:100%;margin:20px auto;" />                   
+
+                </div>
+                <!-- ./ Content div-->
+            </div>
+        </div>
+
+    </section>
+    <!--END PORTFOLIO SECTION -->
+    <!--CONTACT SECTION -->
+    <section id="kontakty">
+        <div class="wrap-pad">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.5s">
+                    <div class="text-center">
+                        <h1>Kontakty</h1>
+                        <!--<p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.                       
+                        </p>-->
+                    </div>
+                </div>
+                <!-- ./ Heading div-->
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1  margin-top-20">
+                    <div class="col-md-6  col-sm-12" data-scrollreveal="enter left and move 100px, wait 0.6s">
+                        <h3><i class="fa fa-pencil small-icons bk-color-light-blue"></i>Napište nám</h3>
+                        <hr />
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required placeholder="Jméno">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required placeholder="E-mail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required class="form-control" rows="4" placeholder="Zpráva"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-lg">Odeslat zprávu</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1  col-sm-12" data-scrollreveal="enter right and move 100px, wait 0.6s">
+                        <h3><i class="fa fa-comments small-icons bk-color-red"></i>Kde nás najdete</h3>
+                        <hr />
+                        <strong>Advokátní kancelář Mgr. Ivo Šotek, Mgr. Radek Chochola a Mgr. Richard Frommer:</strong><br />
+Ostružnická 6<br />
+772 00 Olomouc<br /><br />
+
+Tel: 585 203 279<br />
+Fax: 585 203 767
+                        <h3><i class="fa fa-plus small-icons bk-color-green"></i>Sociální sítě</h3>
+                        <a href="#"><i class="fa fa-facebook fa-3x color-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-3x color-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus fa-3x color-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-3x color-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest fa-3x color-pinterest"></i></a>
+                    </div>
+                </div>
+                <!-- ./ Content div-->
+            </div>
+        </div>
+    </section>
+    <!--END CONTACT SECTION -->    <section id="prohlaseni1">
+        <div class="wrap-pad">
+             <article>
+             <span id="zavrit1"><strong>X</strong> zavřít</span>
+ <img src="./assets/img/team/eliska.jpg" style="margin:0 15px 35px 0; float:left;">            <h1>Eliška Dostálová</h1>
+    <p>
+(dostalova@akostruznicka.cz)</p>
+<p>Je studentka Právnické fakulty Univerzity Palackého v Olomouci a v advokátní kanceláři pracuje od ledna roku 2014.</p>
+<p>Věnuje se zejména insolvenčnímu právu, přičemž se specializuje na oddlužení a konkurzy. Dále se zabývá vybranou problematikou platného práva, a to především práva občanského a trestního.  Zpracovává podklady a zajišťuje rozličnou administrativu a korespondenci související s chodem advokátní kanceláře. </p>
+</article>
+</div>
+</section>
+<section id="prohlaseni2">
+        <div class="wrap-pad">
+             <article>
+             <span id="zavrit2"><strong>X</strong> zavřít</span>
+ <img src="./assets/img/team/katerina.jpg" style="margin:0 15px 35px 0; float:left;">             <h1>Kateřina Krkošková</h1>
+   <p>
+Kateřina Krkošková je studentkou posledního ročníku Právnické fakulty v Olomouci. V této advokátní kanceláři pracuje již třetím rokem, kde se specializuje především na insolvenční právo. V minulosti byla zaměstnána na exekutorském úřadu, kde získala praxi v odvětví exekučního práva. V roce 2010 absolvovala odbornou stáž na Okresním soudě v Přerově na trestním a opatrovnickém oddělení. </p>
+<p>Jazyk: Francouzština</p>
+
+
+<p>Zaměření:</p>
+<ul style="list-style:none;">
+<li>Insolvenční právo</li>
+<li>Občanské právo</li>
+<li>Trestní právo – úpadkové trestné činy</li>
+</ul>
+</article>
+</div>
+</section>
+<section id="prohlaseni7">
+        <div class="wrap-pad">
+             <article>
+             <span id="zavrit7"><strong>X</strong> zavřít</span>
+ <img src="./assets/img/team/ivo.jpg" style="margin:0 15px 35px 0; float:left;">            <h1>Mgr. Ivo Šotek, advokát a insolvenční správce se zvláštním povolením</h1>
+    <p>
+   
+Ivo Šotek absolvoval Právnickou fakultu Univerzity Palackého v Olomouci v roce 199. V roce 2005 byl zapsán do seznamu likvidátorů a nucených správců a od roku 2010 je na základě rozhodnutí Ministerstva spravedlnosti ČR ze dne 20.11.2010 jako jeden z mála insolvenčních správců oprávněn vykonávat funkci zvláštního insolvenčního správce. 
+Rovněž je zapsán v seznamu likvidátorů a nucených správců vedených Českou národní bankou pro účely zavedení likvidací a nucené správy subjektů podnikajících na kapitálovém trhu.
+    </p>
+</article>
+</div>
+</section>
+<section id="prohlaseni11">
+        <div class="wrap-pad">
+             <article>
+             <span id="zavrit11"><strong>X</strong> zavřít</span>
+ <img src="./assets/img/team/nikola.jpg" style="margin:0 15px 35px 0; float:left;">            <h1>Kateřina Obadalová</h1>
+    <p>
+Kateřina Obadalová pochází že slezského města Havířov. V roce 2012 s vyznamenáním složila maturitní zkoušku v oboru Veřejnosprávní činnost.</p>
+
+<p>Nyní studuje na Fakultě právnické Západočeské univerzity v Plzní a od 11/2014 je zaměstnancem AK Ostružnická.
+
+    </p>
+</article>
+</div>
+</section>
+    <!--FOOTER SECTION -->
+    <footer id="footer">
+        <div class="row">
+            <div class="col-md-12  col-sm-12">
+                &copy; 2014 www.domena.cz  |  Všechna práva vyhrazena
+               
+            </div>
+        </div>
+    </footer>
+    <!--END FOOTER SECTION -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY LIBRARY -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- BOOTSTRAP SCRIPTS LIBRARY -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- PRETTYPHOTO  SCRIPTS  LIBRARY-->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+     <!-- SCROLL REVEL  SCRIPTS  LIBRARY-->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!-- CUSTOM SCRIPT-->
+    <script src="assets/scripts/custom.js"></script>
+</body>
+</html>
